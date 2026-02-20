@@ -24,11 +24,11 @@ pip install -r requirements.txt
 Make sure to fill in the .env file. You need to create an account on OpenAI, Gemini, or NVIDIA NIM to obtain your API keys.
 ```bash
 NVIDIA_API_KEY='YOUR NVIDIA NIM API KEY'
-IMAP_SERVER=imap.gmail.com (Done, no key needed)
-EMAIL_USER='YOUR EMAIL' (Your Gmail)
-EMAIL_PASS='YOUR EMAIL (APP) PASSWORD' (To get the key, instructions in the next step)
-TELEGRAM_BOT_TOKEN='YOUR TELEGRAM BOT TOKEN' (To get the key, instructions in the next step)
-TELEGRAM_CHAT_ID='YOUR TELEGRAM CHAT ID' (To get the key, instructions in the next step)
+IMAP_SERVER=imap.gmail.com #Done, no key needed
+EMAIL_USER='YOUR EMAIL' #Your Gmail
+EMAIL_PASS='YOUR EMAIL APP PASSWORD' #To get the key, instructions in the next step
+TELEGRAM_BOT_TOKEN='YOUR TELEGRAM BOT TOKEN' #To get the key, instructions in the next step
+TELEGRAM_CHAT_ID='YOUR TELEGRAM CHAT ID' #To get the key, instructions in the next step
 ```
 ## How to launch AI_Assistant
 In our case, we will be using Gmail emails
