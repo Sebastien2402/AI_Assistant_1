@@ -1,64 +1,37 @@
-# -------------------------
-# Python
-# -------------------------
 __pycache__/
 *.py[cod]
 *$py.class
 *.pyo
 
-# -------------------------
-# Environnement virtuel
-# -------------------------
 venv/
 env/
 .venv/
 
-# -------------------------
-# IDE / Editor
-# -------------------------
 .vscode/
 .idea/
 *.sublime-project
 *.sublime-workspace
 
-# -------------------------
-# Environnement / secrets
-# -------------------------
 .env
 *.env
 
-# -------------------------
-# Logs
-# -------------------------
 *.log
 *.log.*
 
-# -------------------------
-# Fichiers système
-# -------------------------
 .DS_Store
 Thumbs.db
 
-# -------------------------
-# Distribution / Build
-# -------------------------
 build/
 dist/
 *.egg-info/
 
-# -------------------------
-# Frontend / Streamlit
-# -------------------------
 .streamlit/
 
-# -------------------------
-# Backend / Frontend
-# -------------------------
 Backend/__pycache__/
 Frontend/__pycache__/
 
-# -------------------------
-# Fichiers de test locaux
-# -------------------------
 testIMAP.py
 testNotif.py
+
+ReadMe_images/
+.ReadMe_images/
