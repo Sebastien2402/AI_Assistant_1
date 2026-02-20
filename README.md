@@ -38,7 +38,7 @@ Search for App Passwords.
 Then, name your app to generate the EMAIL_PASS key, which will then be displayed on your screen. Don't close it !
 Important: Copy and save this key immediately, as it will not be shown again.
 Your EMAIL_PASS key should be shown as below:
-<img src="ReadMe_images/Gmail_APP_password.png" width="300">
+<img src="ReadMe_images/Gmail_APP_password.png">
 
 ### Get your TELEGRAM_BOT_TOKEN
 First, please download on your mobile phone the Telegram app, available on Android and IOS.
@@ -49,7 +49,7 @@ Run the following command:
 ```
 Enter the bot a name, that finish with "bot", like : my_AI_assistant_bot.
 Your token should be shown as below: 
-<img src="ReadMe_images/IMG_3816.jpeg" width="300">
+<img src="ReadMe_images/IMG_3816.jpeg">
 ### Get your TELEGRAM_CHAT_ID
 Your Telegram bot should now be active. Send /start in the chat; this is required for the next step.
 In a browser, enter the following link: https://api.telegram.org/YOURTELEGRAMBOTTOKEN/getUpdates 
