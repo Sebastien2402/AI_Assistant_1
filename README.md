@@ -32,7 +32,7 @@ TELEGRAM_CHAT_ID='YOUR TELEGRAM CHAT ID' (To get the key, instructions in the ne
 ```
 ## How to launch AI_Assistant
 In our case, we will be using Gmail emails
-###Get your EMAIL_PASS Key
+### Get your EMAIL_PASS Key
 Navigate to: https://myaccount.google.com/
 Search for App Passwords.
 Then, name your app to generate the EMAIL_PASS key, which will then be displayed on your screen. Don't close it !
@@ -40,7 +40,7 @@ Important: Copy and save this key immediately, as it will not be shown again.
 Your EMAIL_PASS key should be shown as below:
 <img src="ReadMe_images/Gmail_APP_password.png" width="300">
 
-###Get your TELEGRAM_BOT_TOKEN
+### Get your TELEGRAM_BOT_TOKEN
 First, please download on your mobile phone the Telegram app, available on Android and IOS.
 Once on the Telegram app downloaded, look for @BotFather, click on it or START.
 Run the following command:
@@ -50,7 +50,7 @@ Run the following command:
 Enter the bot a name, that finish with "bot", like : my_AI_assistant_bot.
 Your token should be shown as below: 
 <img src="ReadMe_images/IMG_3816.jpeg" width="300">
-###Get your TELEGRAM_CHAT_ID
+### Get your TELEGRAM_CHAT_ID
 Your Telegram bot should now be active. Send /start in the chat; this is required for the next step.
 In a browser, enter the following link: https://api.telegram.org/YOURTELEGRAMBOTTOKEN/getUpdates 
 Example: https://api.telegram.org/bot123456789:AAxxxxxxx/getUpdates
@@ -58,7 +58,7 @@ Your screen should now match this:
 <img src="ReadMe_images/XXXXX" width="300">
 Your TELEGRAM_CHAT_ID is : "id":'HERE'.
 
-##Launching
+## Launching
 Verify your environment: Ensure Python 3.10.12 is active and requirements are met.
 ```bash
 python3 Backend/mail_agent.py 
